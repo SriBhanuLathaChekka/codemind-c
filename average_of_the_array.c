@@ -4,12 +4,12 @@ int main()
     int N;
     scanf("%d",&N);
     int a[N],i;
-    float avg;
-    for(i=1;i<=N;i++)
+    float avg=0;
+    for(i=0;i<N;i++)
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<=N;i++)
+    for(i=0;i<N;i++)
     {
         avg=avg+a[i];
     }
