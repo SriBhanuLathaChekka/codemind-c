@@ -8,10 +8,10 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<=N;i++)
+    for(i=1;i<=N;i++)
     {
-    if(i%2!=0)
-    sum=sum+a[i];
+        if(i%2!=0)
+        sum=sum+a[i];
     }
-     printf("%d",sum);
+    printf("%d",sum);
 }
