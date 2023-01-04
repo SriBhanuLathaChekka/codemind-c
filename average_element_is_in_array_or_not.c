@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int s=0,n,i,flag=0;
+    int flag=0,n,i,s=0;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++)
     {
-        scanf("%d",&a[i]);
+       scanf("%d",&a[i]); 
     }
     for(i=0;i<n;i++)
     {
